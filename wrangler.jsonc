@@ -8,6 +8,10 @@
 		{
 			"pattern": "andrewberty.com",
 			"custom_domain": true
+		},
+		{
+			"pattern": "www.andrewberty.com",
+			"custom_domain": true
 		}
 	],
 }
