@@ -14,6 +14,6 @@ const wwwRedirect = createMiddleware().server(({ request, next }) => {
 	return next()
 })
 
-export const startInstance = createStart({
+export const startInstance = createStart(() => ({
 	requestMiddleware: [wwwRedirect],
-})
+}))
