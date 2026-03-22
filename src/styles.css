@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+html,
+body,
+#app {
+	height: 100%;
+}
+
+:root {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	--accent: #e78632;
+}
+
+body {
+	background-color: #0d0d0d;
+	color: #ffffff;
+	display: grid;
+	place-items: center;
+}
